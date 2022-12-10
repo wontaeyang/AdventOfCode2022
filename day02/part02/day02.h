@@ -1,0 +1,2 @@
+
+int calculate(char* line);
