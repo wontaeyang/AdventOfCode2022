@@ -1,2 +1,0 @@
-
-int calculate(char* line);
