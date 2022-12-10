@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "stdlib.h"
 #include "string.h"
 
 int calculate(char* moves) {
@@ -53,5 +54,8 @@ int main() {
   }
 
   printf("TOTAL is %d\n", total);
+  fclose(fp);
+  free(line);
+  return 0;
 }
 
