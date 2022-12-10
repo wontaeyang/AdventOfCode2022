@@ -48,12 +48,8 @@ int main() {
   }
 
   int total = 0;
-
   while ((read = getline(&line, &len, fp)) != -1) {
-    printf("Move is %s", line);
-    printf("Score is %d\n", calculate(line));
     total += calculate(line);
-    printf("Total is %d\n\n", total);
   }
 
   printf("TOTAL is %d\n", total);
